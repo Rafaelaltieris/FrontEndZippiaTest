@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon" href="logo/user.png" type="image/x-icon">
+</head>
+
+<body>
+  <h1>User Dashboard</h1>
+  <input type="text" id="searchInput" placeholder="Filtrar por nome...">
+  <button id="fetchButton" class="btn-btn btn-dark">Fetch Users</button>
+  <table id="usersTable" class="table table-dark">
+    <thead class="thead-light">
+      <tr>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>City</th>
+        <th>Company</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</body>
+<script src="script.js"></script>
+
+</html>
