@@ -26,15 +26,16 @@ First, clone this repository to your local machine:
 ```bash
 git clone https://github.com/yourusername/user-management-dashboard.git
 ```
-
+Navigate to the Project Directory
 ```bash
 cd user-management-dashboard
 ```
-
+Install Dependencies
 ```bash
 npm install
 ```
 
+Start the Development Server
 ```bash
 npm start
 ```
@@ -45,9 +46,9 @@ The application is deployed on Vercel. You can access the live demo at https://f
 
 ## Technologies Used
 
-- **JavaScript: For interacting with the DOM and handling API requests.
-- **HTML/CSS: For structuring and styling the application.
-- **Vercel: For deployment.
+- JavaScript: For interacting with the DOM and handling API requests.
+- HTML/CSS: For structuring and styling the application.
+- Vercel: For deployment.
 
 ## Contributing
 
